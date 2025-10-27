@@ -2,12 +2,12 @@ namespace Test1;
 
 public class Tests
 {
-    private readonly IShape sphere = new Sphere(5);
     private readonly IShape cube = new Cube(4);
     private readonly IShape cylinder = new Cylinder(3, 7);
     private readonly IShape rectangle = new Rectangle(4, 8);
-    
-    
+    private readonly IShape sphere = new Sphere(5);
+
+
     [Test]
     public void TestSphereCalculateArea()
     {

@@ -16,4 +16,4 @@ public class Rectangle(double length, double width) : IShape
         // Height of 2D shape is 0, therefore volume is 0
         return 0;
     }
-}// private readonly IShape rectangle = new Rectangle(4, 8);
+} // private readonly IShape rectangle = new Rectangle(4, 8);

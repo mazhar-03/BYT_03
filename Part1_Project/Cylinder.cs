@@ -2,8 +2,8 @@
 
 public class Cylinder(double radius, double height) : IShape
 {
-    private readonly double radius = radius;
     private readonly double height = height;
+    private readonly double radius = radius;
 
     public double CalculateArea()
     {
@@ -14,5 +14,4 @@ public class Cylinder(double radius, double height) : IShape
     {
         return Math.PI * Math.Pow(radius, 2) * height;
     }
-
-}    
+}

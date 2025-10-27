@@ -13,5 +13,4 @@ public class Cube(double side) : IShape
     {
         return Math.Pow(side, 3);
     }
-
 }
